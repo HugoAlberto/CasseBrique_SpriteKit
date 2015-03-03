@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F35EE7C1AA5FB9C002F2FFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35EE7B1AA5FB9C002F2FFB /* main.m */; };
+		6F35EE7F1AA5FB9C002F2FFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35EE7E1AA5FB9C002F2FFB /* AppDelegate.m */; };
+		6F35EE821AA5FB9C002F2FFB /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35EE811AA5FB9C002F2FFB /* GameScene.m */; };
+		6F35EE841AA5FB9C002F2FFB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6F35EE831AA5FB9C002F2FFB /* GameScene.sks */; };
+		6F35EE871AA5FB9C002F2FFB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35EE861AA5FB9C002F2FFB /* GameViewController.m */; };
+		6F35EE8A1AA5FB9C002F2FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F35EE881AA5FB9C002F2FFB /* Main.storyboard */; };
+		6F35EE8C1AA5FB9D002F2FFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F35EE8B1AA5FB9C002F2FFB /* Images.xcassets */; };
+		6F35EE8F1AA5FB9D002F2FFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F35EE8D1AA5FB9D002F2FFB /* LaunchScreen.xib */; };
+		6F35EE9B1AA5FB9D002F2FFB /* SKSpriteDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35EE9A1AA5FB9D002F2FFB /* SKSpriteDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F35EE951AA5FB9D002F2FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F35EE6E1AA5FB9C002F2FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F35EE751AA5FB9C002F2FFB;
+			remoteInfo = SKSpriteDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F35EE761AA5FB9C002F2FFB /* SKSpriteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKSpriteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F35EE7A1AA5FB9C002F2FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F35EE7B1AA5FB9C002F2FFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F35EE7D1AA5FB9C002F2FFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F35EE7E1AA5FB9C002F2FFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F35EE801AA5FB9C002F2FFB /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		6F35EE811AA5FB9C002F2FFB /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		6F35EE831AA5FB9C002F2FFB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6F35EE851AA5FB9C002F2FFB /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		6F35EE861AA5FB9C002F2FFB /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		6F35EE891AA5FB9C002F2FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F35EE8B1AA5FB9C002F2FFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F35EE8E1AA5FB9D002F2FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6F35EE941AA5FB9D002F2FFB /* SKSpriteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKSpriteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F35EE991AA5FB9D002F2FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F35EE9A1AA5FB9D002F2FFB /* SKSpriteDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKSpriteDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F35EE731AA5FB9C002F2FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F35EE911AA5FB9D002F2FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F35EE6D1AA5FB9C002F2FFB = {
+			isa = PBXGroup;
+			children = (
+				6F35EE781AA5FB9C002F2FFB /* SKSpriteDemo */,
+				6F35EE971AA5FB9D002F2FFB /* SKSpriteDemoTests */,
+				6F35EE771AA5FB9C002F2FFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F35EE771AA5FB9C002F2FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F35EE761AA5FB9C002F2FFB /* SKSpriteDemo.app */,
+				6F35EE941AA5FB9D002F2FFB /* SKSpriteDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F35EE781AA5FB9C002F2FFB /* SKSpriteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6F35EE7D1AA5FB9C002F2FFB /* AppDelegate.h */,
+				6F35EE7E1AA5FB9C002F2FFB /* AppDelegate.m */,
+				6F35EE801AA5FB9C002F2FFB /* GameScene.h */,
+				6F35EE811AA5FB9C002F2FFB /* GameScene.m */,
+				6F35EE831AA5FB9C002F2FFB /* GameScene.sks */,
+				6F35EE851AA5FB9C002F2FFB /* GameViewController.h */,
+				6F35EE861AA5FB9C002F2FFB /* GameViewController.m */,
+				6F35EE881AA5FB9C002F2FFB /* Main.storyboard */,
+				6F35EE8B1AA5FB9C002F2FFB /* Images.xcassets */,
+				6F35EE8D1AA5FB9D002F2FFB /* LaunchScreen.xib */,
+				6F35EE791AA5FB9C002F2FFB /* Supporting Files */,
+			);
+			path = SKSpriteDemo;
+			sourceTree = "<group>";
+		};
+		6F35EE791AA5FB9C002F2FFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F35EE7A1AA5FB9C002F2FFB /* Info.plist */,
+				6F35EE7B1AA5FB9C002F2FFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F35EE971AA5FB9D002F2FFB /* SKSpriteDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F35EE9A1AA5FB9D002F2FFB /* SKSpriteDemoTests.m */,
+				6F35EE981AA5FB9D002F2FFB /* Supporting Files */,
+			);
+			path = SKSpriteDemoTests;
+			sourceTree = "<group>";
+		};
+		6F35EE981AA5FB9D002F2FFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F35EE991AA5FB9D002F2FFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F35EE751AA5FB9C002F2FFB /* SKSpriteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F35EE9E1AA5FB9D002F2FFB /* Build configuration list for PBXNativeTarget "SKSpriteDemo" */;
+			buildPhases = (
+				6F35EE721AA5FB9C002F2FFB /* Sources */,
+				6F35EE731AA5FB9C002F2FFB /* Frameworks */,
+				6F35EE741AA5FB9C002F2FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKSpriteDemo;
+			productName = SKSpriteDemo;
+			productReference = 6F35EE761AA5FB9C002F2FFB /* SKSpriteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F35EE931AA5FB9D002F2FFB /* SKSpriteDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F35EEA11AA5FB9D002F2FFB /* Build configuration list for PBXNativeTarget "SKSpriteDemoTests" */;
+			buildPhases = (
+				6F35EE901AA5FB9D002F2FFB /* Sources */,
+				6F35EE911AA5FB9D002F2FFB /* Frameworks */,
+				6F35EE921AA5FB9D002F2FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F35EE961AA5FB9D002F2FFB /* PBXTargetDependency */,
+			);
+			name = SKSpriteDemoTests;
+			productName = SKSpriteDemoTests;
+			productReference = 6F35EE941AA5FB9D002F2FFB /* SKSpriteDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F35EE6E1AA5FB9C002F2FFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					6F35EE751AA5FB9C002F2FFB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6F35EE931AA5FB9D002F2FFB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6F35EE751AA5FB9C002F2FFB;
+					};
+				};
+			};
+			buildConfigurationList = 6F35EE711AA5FB9C002F2FFB /* Build configuration list for PBXProject "SKSpriteDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F35EE6D1AA5FB9C002F2FFB;
+			productRefGroup = 6F35EE771AA5FB9C002F2FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F35EE751AA5FB9C002F2FFB /* SKSpriteDemo */,
+				6F35EE931AA5FB9D002F2FFB /* SKSpriteDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F35EE741AA5FB9C002F2FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F35EE8F1AA5FB9D002F2FFB /* LaunchScreen.xib in Resources */,
+				6F35EE8C1AA5FB9D002F2FFB /* Images.xcassets in Resources */,
+				6F35EE841AA5FB9C002F2FFB /* GameScene.sks in Resources */,
+				6F35EE8A1AA5FB9C002F2FFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F35EE921AA5FB9D002F2FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F35EE721AA5FB9C002F2FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F35EE871AA5FB9C002F2FFB /* GameViewController.m in Sources */,
+				6F35EE7F1AA5FB9C002F2FFB /* AppDelegate.m in Sources */,
+				6F35EE821AA5FB9C002F2FFB /* GameScene.m in Sources */,
+				6F35EE7C1AA5FB9C002F2FFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F35EE901AA5FB9D002F2FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F35EE9B1AA5FB9D002F2FFB /* SKSpriteDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F35EE961AA5FB9D002F2FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F35EE751AA5FB9C002F2FFB /* SKSpriteDemo */;
+			targetProxy = 6F35EE951AA5FB9D002F2FFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F35EE881AA5FB9C002F2FFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F35EE891AA5FB9C002F2FFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F35EE8D1AA5FB9D002F2FFB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F35EE8E1AA5FB9D002F2FFB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F35EE9C1AA5FB9D002F2FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F35EE9D1AA5FB9D002F2FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F35EE9F1AA5FB9D002F2FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKSpriteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F35EEA01AA5FB9D002F2FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKSpriteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F35EEA21AA5FB9D002F2FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKSpriteDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKSpriteDemo.app/SKSpriteDemo";
+			};
+			name = Debug;
+		};
+		6F35EEA31AA5FB9D002F2FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKSpriteDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKSpriteDemo.app/SKSpriteDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F35EE711AA5FB9C002F2FFB /* Build configuration list for PBXProject "SKSpriteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F35EE9C1AA5FB9D002F2FFB /* Debug */,
+				6F35EE9D1AA5FB9D002F2FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F35EE9E1AA5FB9D002F2FFB /* Build configuration list for PBXNativeTarget "SKSpriteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F35EE9F1AA5FB9D002F2FFB /* Debug */,
+				6F35EEA01AA5FB9D002F2FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F35EEA11AA5FB9D002F2FFB /* Build configuration list for PBXNativeTarget "SKSpriteDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F35EEA21AA5FB9D002F2FFB /* Debug */,
+				6F35EEA31AA5FB9D002F2FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F35EE6E1AA5FB9C002F2FFB /* Project object */;
+}
